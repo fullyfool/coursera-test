@@ -1,0 +1,92 @@
+body {
+width: 100%;
+margin: 0 20px;
+padding: 0;
+font-family: Helvetica, Arial, sans serif;
+}
+h1 {
+	font-size: 1.75em;
+	text-align: center;
+}
+#first, #second, #third  {
+	background-color: #f1f1f1;
+}
+#first h2 {
+	background-color: #7fb185;
+}
+#second h2 {
+	background-color: #d4e3a7;
+}
+#third h2 {
+	background-color: #b5d2ce;
+}
+.title {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 25%;
+	margin: 0;
+	border: 1px solid black;
+}
+h2 {
+	font-size: 1.25em;
+	margin: 0;
+	text-align: center;
+}
+p {
+	padding: 10px;
+}
+@media (min-width: 992px) {
+section {
+	position: relative;
+	box-sizing: border-box;
+	width: calc(33.3% - 20px);
+	float: left;
+	border: 1px solid black;
+	margin-right: 20px;
+}
+section#third {
+	position: relative;
+	box-sizing: border-box;
+	width: calc(33.3% - 40px);
+	float: left;
+	border: 1px solid black;
+	margin-right: 0px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+ section#first {
+ 	position: relative;
+	box-sizing: border-box;
+	width: calc(50% - 20px);
+	float: left;
+	border: 1px solid black;
+	margin-right: 20px;
+}
+section#second {
+ 	position: relative;
+	box-sizing: border-box;
+	width: calc(50% - 40px);
+	float: left;
+	border: 1px solid black;
+	margin-right: 20px;
+ }
+ section#third {
+ 	position: relative;
+	box-sizing: border-box;
+	width: calc(100% - 40px);
+	float: left;
+	border: 1px solid black;
+	margin: 20px 0;
+}
+}
+@media (max-width: 767px) {
+	section {
+	position: relative;
+	box-sizing: border-box;
+	width: calc(100% - 40px);
+	border: 1px solid black;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	}
+}
