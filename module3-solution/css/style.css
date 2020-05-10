@@ -1,0 +1,15 @@
+.navbar {
+	background-color: #C0E1E8;
+}
+#page-title {
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0;
+}
+#page-tile {
+	background-color: #f6e7ce;
+	padding: 15px;
+}
+#page-tile h2 {
+	text-align: center;
+}
